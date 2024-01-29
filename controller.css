@@ -1,13 +1,46 @@
+/*google fonts: Hind-Shiliguri, Poppins, Monteserrat*/
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+/*
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+/*-------------------------------------------------------------------------------------*/
 /*colors*/
 :root {
     --darkBlue: #111a28;
     --matooBlack: #1d293a;
     --white: #ffffff;
     --lightGreen: #00cf5d;
+    --lightGray: #999;
+}
+/*-------------------------------------------------------------------------------------*/
+/*Default css*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-/*center an element using flex*/
+body {
+    min-height: 100vh;
+    background: var(--lightGray);
+}
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--lightGreen);
+}
+/*-------------------------------------------------------------------------------------*/
+/*centering elements*/
+/*center an element using flex*/
 .cFlex {
     display: flex;
     align-items: center;
@@ -36,3 +69,4 @@
     right: 50%;
     transform: translate(-50%);
 }
+/*-------------------------------------------------------------------------------------*/
