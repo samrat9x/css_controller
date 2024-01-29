@@ -1,6 +1,38 @@
+/*colors*/
 :root {
     --darkBlue: #111a28;
     --matooBlack: #1d293a;
     --white: #ffffff;
     --lightGreen: #00cf5d;
+}
+
+/*center an element using flex*/
+
+.cFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*center an element using flex*/
+.cGrid {
+    display: grid;
+    place-items: center;
+}
+
+/*center an element using transform:translate()*/
+.cTrans {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cTransL {
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.cTransR {
+    right: 50%;
+    transform: translate(-50%);
 }
