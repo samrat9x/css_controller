@@ -73,16 +73,16 @@ a {
 /*Button*/
 
 /*<!-- HTML !-->
-<button class="btn-pushable" role="button">
-  <span class="btn-shadow"></span>
-  <span class="btn-edge"></span>
-  <span class="btn-front text">
+<button class="btnP" role="button">
+  <span class="btnS"></span>
+  <span class="btnE"></span>
+  <span class="btnF text">
     Button 82
   </span>
 </button>*/
 
 /* CSS */
-.btn-pushable {
+.btnP {
     position: relative;
     border: none;
     background: transparent;
@@ -95,7 +95,7 @@ a {
     touch-action: manipulation;
 }
 
-.btn-shadow {
+.btnS {
     position: absolute;
     top: 0;
     left: 0;
@@ -108,7 +108,7 @@ a {
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
 }
 
-.btn-edge {
+.btnE {
     position: absolute;
     top: 0;
     left: 0;
@@ -124,7 +124,7 @@ a {
     );
 }
 
-.btn-front {
+.btnF {
     display: block;
     position: relative;
     padding: 12px 27px;
@@ -138,37 +138,37 @@ a {
 }
 
 @media (min-width: 768px) {
-    .btn-front {
+    .btnF {
         font-size: 1.25rem;
         padding: 12px 42px;
     }
 }
 
-.btn-pushable:hover {
+.btnP:hover {
     filter: brightness(110%);
     -webkit-filter: brightness(110%);
 }
 
-.btn-pushable:hover .btn-front {
+.btnP:hover .btnF {
     transform: translateY(-6px);
     transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
 
-.btn-pushable:active .btn-front {
+.btnP:active .btnF {
     transform: translateY(-2px);
     transition: transform 34ms;
 }
 
-.btn-pushable:hover .btn-shadow {
+.btnP:hover .btnS {
     transform: translateY(4px);
     transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
 
-.btn-pushable:active .btn-shadow {
+.btnP:active .btnS {
     transform: translateY(1px);
     transition: transform 34ms;
 }
 
-.btn-pushable:focus:not(:focus-visible) {
+.btnP:focus:not(:focus-visible) {
     outline: none;
 }
