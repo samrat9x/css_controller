@@ -1,1 +1,2 @@
 # controller
+This is a CSS controller. I made this repo for my projects i make. Sometimes it gets boring to write a lot of css. Same styles are using in different projects. So i have gathered all the repeatative css in this repo. During making projects i just link it with my projects.
