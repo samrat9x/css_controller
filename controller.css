@@ -5,18 +5,13 @@ font-family: 'Hind Siliguri', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
+
+/*colors.css*/
+@import url("colors.css");
+
 /*buttons.css */
 @import url("buttons.css");
-/*-------------------------------------------------------------------------------------*/
-/*colors*/
-:root {
-    --darkBlue: #111a28;
-    --matooBlack: #1d293a;
-    --white: #ffffff;
-    --lightGreen: #00cf5d;
-    --lightGray: #999;
-}
-/*-------------------------------------------------------------------------------------*/
+
 /*Default css*/
 *,
 *::before,
@@ -24,6 +19,10 @@ font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
