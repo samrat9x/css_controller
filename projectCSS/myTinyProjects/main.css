@@ -8,7 +8,7 @@
 
 body {
 	background: #f9fafb;
-	background-image: url("https://raw.githubusercontent.com/samrat9x/My_Tiny_Projects/f6e03cba085b434093a00f504a300331904ee7f1/img/circle.svg");
+	background-image: url("./img/circle.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 500px;
@@ -96,8 +96,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: url("https://github.com/samrat9x/My_Tiny_Projects/blob/main/img/footer.png")
-		no-repeat;
+	background: url("./img/footer.png") no-repeat;
 	background-size: 100%;
 	background-position: center bottom;
 	height: 135px;
